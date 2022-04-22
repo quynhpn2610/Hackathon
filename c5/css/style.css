@@ -1,0 +1,134 @@
+.header {
+    background-color: lightcyan;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.messages {
+    background-color: lightskyblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center
+}
+
+.navigation {
+    background-color: powderblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center
+}
+
+.ads {
+    background-color: lightcyan;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.main {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    grid-template-columns:1fr;
+    display: grid
+}
+
+.footer {
+    background-color: lightsteelblue;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows:repeat(3, auto) 1fr repeat(2, auto);
+    grid-template-areas:'header' 'message' 'navigation' 'main' 'ads' 'footer'
+}
+
+.company {
+    font-weight: bold;
+    display: none
+}
+
+.centered.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center
+}
+
+.movie {
+    padding-bottom: 15px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns:80% 20%;
+    grid-template-areas:'title rating' 'showtime runtime' 'extended extended'
+}
+
+.extended {
+    grid-area: extended;
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-areas:'genre genre' 'poster descr' 'poster stars' 'poster trailer'
+}
+
+.showtime {
+    grid-area: showtime;
+    text-align: right
+}
+
+.rating {
+    grid-area: rating;
+    font-style: italic;
+    text-align: right
+}
+
+.title {
+    grid-area: title;
+    font-weight: bold
+}
+
+.runtime {
+    grid-area: runtime;
+    text-align: right
+}
+
+.poster {
+    grid-area: poster
+}
+
+.genre {
+    grid-area: genre
+}
+
+.trailer {
+    grid-area: trailer
+}
+
+.descr {
+    grid-area: descr
+}
+
+.stars {
+    grid-area: stars
+}
+
+.centered.text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center
+}
+
+.movie-item {
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 7px
+}
+
+.movie-main {
+    background-color: white
+}
