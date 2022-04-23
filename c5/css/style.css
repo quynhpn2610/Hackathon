@@ -4,6 +4,10 @@
     padding-bottom: 15px
 }
 
+* {
+    font-family: 'Lora', serif;
+}
+
 .messages {
     background-color: lightskyblue;
     padding-top: 15px;
