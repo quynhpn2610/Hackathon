@@ -4,8 +4,7 @@
     <title>C5</title>
     <link rel="stylesheet" type="text/css" href="/c5/css/style.css">
     <script type="text/javascript" src="/c5/js/nowshowing.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KBWKHTQ0R5"></script>
@@ -20,13 +19,24 @@
 
         gtag('config', 'G-RNX2ZYNSM4');
     </script>
+    <link rel="stylesheet" href="c5/bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="c5/bootstrap-5.1.3-dist/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="c5/bootstrap-5.1.3-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="c5/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css">
+    <link rel="stylesheet" href="c5/bootstrap-5.1.3-dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="c5/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css">
+    <link rel="stylesheet" href="c5/bootstrap-5.1.3-dist/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="c5/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css">
+    <script src="c5/bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="c5/bootstrap-5.1.3-dist/js/bootstrap.esm.js"></script>
+    <script src="c5/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
 
 
 </head>
 
 <body>
 
-<div class="container">
+<div class="container-fluid">
 
     <header class="header">
         <div class="centered img"><img src="/c5/images/C_logo.png" alt=""></div>
@@ -49,6 +59,35 @@
             Find it <a href="http://millcreek-drivein.com" target="_blank">here</a>.
         </b>
     </aside>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/c5/images/poster1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/c5/images/poster2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/c5/images/poster3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
     <nav class="navigation">
         <tr>
             <td class="tdLabel"><label for="showDate" class="label">Playing:</label></td>
