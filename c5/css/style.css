@@ -132,3 +132,23 @@
 .movie-main {
     background-color: white
 }
+
+
+/* Scroll to top button */
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.up-arrow {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Scroll to top button ends */
+
+html {
+    scroll-behavior: smooth;
+}
