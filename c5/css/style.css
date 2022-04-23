@@ -146,7 +146,9 @@
     width: 3rem;
     height: 3rem;
 }
-
+.scroll-up:hover {
+    transform: scale(1.2);
+}
 /* Scroll to top button ends */
 
 html {
