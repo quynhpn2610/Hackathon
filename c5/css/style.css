@@ -192,11 +192,11 @@ h8{
     }
 
     .footer-left {
-        flex: 1;
+        flex: 1 0;
     }
 
     .footer-right {
-        flex: 2;
+        flex: 2 0;
     }
 }
 
