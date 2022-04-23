@@ -26,10 +26,6 @@
 
 .main {
     background-color: lightblue;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    grid-template-columns:1fr;
-    display: grid
 }
 
 .footer {
@@ -147,8 +143,23 @@
     height: 3rem;
 }
 
+.scroll-up:hover {
+    transform: scale(1.2);
+}
+
 /* Scroll to top button ends */
 
 html {
     scroll-behavior: smooth;
+}
+
+/* Read more */
+.more {
+    display: none;
+}
+
+/* Card hover transform */
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: blue 5px 5px 5px 10px;
 }
