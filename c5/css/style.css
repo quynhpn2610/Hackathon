@@ -224,6 +224,10 @@ html {
     display: none;
 }
 
+.readMoreBtn:hover {
+    cursor: pointer;
+}
+
 /* Card hover transform */
 .card:hover {
     transform: scale(1.1);
