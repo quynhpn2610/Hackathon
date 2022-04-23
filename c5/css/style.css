@@ -4,6 +4,10 @@
     padding-bottom: 15px
 }
 
+* {
+    font-family: 'Lora', serif;
+}
+
 .messages {
     background-color: lightskyblue;
     padding-top: 15px;
@@ -176,21 +180,25 @@ h8{
     padding-right: 20%;
     color: #999;
 }
-.Find-us-on-Google-Map{
-    flex-grow: 2;
-}
 
-.footer-left {
-    flex: 1 0px;
-}
 
-.footer-right {
-    flex: 1 0px;
-}
-.footer-right > * {
-    flex: 1;
-}
+@media screen and (min-width: 600px) {
+    .footer-right > * {
+        flex: 1;
+    }
 
+    .Find-us-on-Google-Map {
+        flex-grow: 2;
+    }
+
+    .footer-left {
+        flex: 1 0;
+    }
+
+    .footer-right {
+        flex: 2 0;
+    }
+}
 
 /* Scroll to top button */
 .scroll-up {
@@ -218,6 +226,10 @@ html {
 /* Read more */
 .more {
     display: none;
+}
+
+.readMoreBtn:hover {
+    cursor: pointer;
 }
 
 /* Card hover transform */
