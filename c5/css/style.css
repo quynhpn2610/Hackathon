@@ -235,7 +235,7 @@ html {
 /* Card hover transform */
 .card:hover {
     transform: scale(1.1);
-    box-shadow: #2e5895 5px 5px 5px 10px;
+    box-shadow: #2e5895 5px 5px 5px 10px !important;
 }
 
 @media (max-width: 400px) {
@@ -248,7 +248,7 @@ html {
     }
     .card:hover {
         transform: scale(1.01);
-        box-shadow: #2e5895 5px 5px 5px 10px;
+        box-shadow: #2e5895 5px 5px 5px 10px !important;
     }
     .card {
         margin-bottom: 5px;
@@ -270,7 +270,7 @@ html {
     }
     .card:hover {
         transform: scale(1.01);
-        box-shadow: #2e5895 5px 5px 5px 10px;
+        box-shadow: #2e5895 5px 5px 5px 10px !important;
     }
     .up-arrow {
         width: 6rem;
