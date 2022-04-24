@@ -1,5 +1,5 @@
 .header {
-    background-color: lightcyan;
+    background-color: #2e5895;
     padding-top: 15px;
     padding-bottom: 15px
 }
@@ -8,28 +8,29 @@
     font-family: 'Lora', serif;
 }
 
+
 .messages {
-    background-color: lightskyblue;
+    background-color: #F2F3F5;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center
 }
 
 .navigation {
-    background-color: powderblue;
+    background-color: #F2F3F5;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center
 }
 
 .ads {
-    background-color: lightcyan;
+    background-color: #F2F3F5;
     padding-top: 15px;
     padding-bottom: 15px
 }
 
 .main {
-    background-color: lightblue;
+    background-color: #ffc32b;
 }
 
 .container {
@@ -142,12 +143,12 @@
     flex-flow: row wrap;
     padding: 50px;
     color: black;
-    background-color: lightblue;
+    background-color: #2e5895;
 }
 
 h8{
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
 }
 .footer >*{
     flex: 1100%;
@@ -173,7 +174,7 @@ h8{
 }
 
 .box a{
-    color: blue;
+    color: #F7E976;
 }
 
 .footer-left p{
@@ -235,5 +236,5 @@ html {
 /* Card hover transform */
 .card:hover {
     transform: scale(1.1);
-    box-shadow: blue 5px 5px 5px 10px;
+    box-shadow: #2e5895 5px 5px 5px 10px;
 }
