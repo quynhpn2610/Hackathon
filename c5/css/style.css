@@ -259,6 +259,10 @@ html {
     .card {
         margin-bottom: 5px;
     }
+    .up-arrow {
+        width: 6rem;
+        height: 6rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -273,5 +277,9 @@ html {
     .card:hover {
         transform: scale(1.01);
         box-shadow: blue 5px 5px 5px 10px;
+    }
+    .up-arrow {
+        width: 6rem;
+        height: 6rem;
     }
 }
