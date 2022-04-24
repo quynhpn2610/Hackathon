@@ -1,41 +1,35 @@
 .header {
-    background-color: lightcyan;
+    background-color: #2e5895;
     padding-top: 15px;
     padding-bottom: 15px
 }
 
+* {
+    font-family: 'Lora', serif;
+}
+
 .messages {
-    background-color: lightskyblue;
+    background-color: #F2F3F5;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center
 }
 
 .navigation {
-    background-color: powderblue;
+    background-color: #ffc32b;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center
 }
 
 .ads {
-    background-color: lightcyan;
+    background-color: #F2F3F5;
     padding-top: 15px;
     padding-bottom: 15px
 }
 
 .main {
-    background-color: lightblue;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    grid-template-columns:1fr;
-    display: grid
-}
-
-.footer {
-    background-color: lightsteelblue;
-    padding-top: 15px;
-    padding-bottom: 15px
+    background-color: #ffc32b;
 }
 
 .container {
@@ -131,4 +125,155 @@
 
 .movie-main {
     background-color: white
+}
+
+
+/* Footer */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.footer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: black;
+    background-color: #2e5895;
+}
+
+h8 {
+    font-weight: 400;
+    font-size: 20px;
+}
+.footer >*{
+    flex: 1100%;
+}
+.footer-left{
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+.footer-right{
+    flex: 150%;
+    margin-right: 1.25em;
+    column-count: 3;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer li{
+    line-height: 2em;
+}
+.footer a{
+    text-decoration: none;
+}
+
+.box a{
+    color: #F7E976;
+}
+
+.footer-left p{
+    padding-right: 20%;
+    color: #999;
+}
+
+
+@media screen and (min-width: 600px) {
+    .footer-right > * {
+        flex: 1;
+    }
+
+    .Find-us-on-Google-Map {
+        flex-grow: 2;
+    }
+
+    .footer-left {
+        flex: 1 0;
+    }
+
+    .footer-right {
+        flex: 2 0;
+    }
+}
+
+/* Scroll to top button */
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.up-arrow {
+    width: 3rem;
+    height: 3rem;
+}
+
+.scroll-up:hover {
+    transform: scale(1.2);
+}
+
+/* Scroll to top button ends */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Read more */
+.more {
+    display: none;
+}
+
+.readMoreBtn:hover {
+    cursor: pointer;
+}
+
+/* Card hover transform */
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: #2e5895 5px 5px 5px 10px !important;
+}
+
+@media (max-width: 400px) {
+    /*By default, containers are only full-width on xs screens.
+    This makes them full-width om sm screens as well*/
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100% !important;
+    }
+    .card:hover {
+        transform: scale(1.01);
+        box-shadow: #2e5895 5px 5px 5px 10px !important;
+    }
+    .card {
+        margin-bottom: 5px;
+    }
+    .up-arrow {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100% !important;
+    }
+    .card {
+        margin-bottom: 5px;
+    }
+    .card:hover {
+        transform: scale(1.01);
+        box-shadow: #2e5895 5px 5px 5px 10px !important;
+    }
+    .up-arrow {
+        width: 6rem;
+        height: 6rem;
+    }
 }
