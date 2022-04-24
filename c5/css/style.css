@@ -8,7 +8,6 @@
     font-family: 'Lora', serif;
 }
 
-
 .messages {
     background-color: #F2F3F5;
     padding-top: 15px;
@@ -237,4 +236,44 @@ html {
 .card:hover {
     transform: scale(1.1);
     box-shadow: #2e5895 5px 5px 5px 10px;
+}
+
+@media (max-width: 400px) {
+    /*By default, containers are only full-width on xs screens.
+    This makes them full-width om sm screens as well*/
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100% !important;
+    }
+    .card:hover {
+        transform: scale(1.01);
+        box-shadow: #2e5895 5px 5px 5px 10px;
+    }
+    .card {
+        margin-bottom: 5px;
+    }
+    .up-arrow {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100% !important;
+    }
+    .card {
+        margin-bottom: 5px;
+    }
+    .card:hover {
+        transform: scale(1.01);
+        box-shadow: #2e5895 5px 5px 5px 10px;
+    }
+    .up-arrow {
+        width: 6rem;
+        height: 6rem;
+    }
 }
