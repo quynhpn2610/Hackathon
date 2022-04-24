@@ -1,5 +1,5 @@
 .header {
-    background-color: lightcyan;
+    background-color: #2e5895;
     padding-top: 15px;
     padding-bottom: 15px
 }
@@ -8,28 +8,29 @@
     font-family: 'Lora', serif;
 }
 
+
 .messages {
-    background-color: lightskyblue;
+    background-color: #F2F3F5;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center
 }
 
 .navigation {
-    background-color: powderblue;
+    background-color: #F2F3F5;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center
 }
 
 .ads {
-    background-color: lightcyan;
+    background-color: #F2F3F5;
     padding-top: 15px;
     padding-bottom: 15px
 }
 
 .main {
-    background-color: lightblue;
+    background-color: #ffc32b;
 }
 
 .container {
@@ -142,47 +143,41 @@
     flex-flow: row wrap;
     padding: 50px;
     color: black;
-    background-color: lightblue;
+    background-color: #2e5895;
 }
 
 h8 {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
 }
-
-.footer > * {
+.footer >*{
     flex: 1100%;
 }
-
-.footer-left {
+.footer-left{
     margin-right: 1.25em;
     margin-bottom: 2em;
 }
-
-.footer-right {
+.footer-right{
     flex: 150%;
     margin-right: 1.25em;
     column-count: 3;
 }
-
-.footer ul {
+.footer ul{
     list-style: none;
     padding-left: 0;
 }
-
-.footer li {
+.footer li{
     line-height: 2em;
 }
-
-.footer a {
+.footer a{
     text-decoration: none;
 }
 
-.box a {
-    color: blue;
+.box a{
+    color: #F7E976;
 }
 
-.footer-left p {
+.footer-left p{
     padding-right: 20%;
     color: #999;
 }
@@ -241,45 +236,5 @@ html {
 /* Card hover transform */
 .card:hover {
     transform: scale(1.1);
-    box-shadow: blue 5px 5px 5px 10px;
-}
-
-@media (max-width: 400px) {
-    /*By default, containers are only full-width on xs screens.
-    This makes them full-width om sm screens as well*/
-    .container {
-        margin-left: 0;
-        margin-right: 0;
-        max-width: 100% !important;
-    }
-    .card:hover {
-        transform: scale(1.01);
-        box-shadow: blue 5px 5px 5px 10px;
-    }
-    .card {
-        margin-bottom: 5px;
-    }
-    .up-arrow {
-        width: 6rem;
-        height: 6rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .container {
-        margin-left: 0;
-        margin-right: 0;
-        max-width: 100% !important;
-    }
-    .card {
-        margin-bottom: 5px;
-    }
-    .card:hover {
-        transform: scale(1.01);
-        box-shadow: blue 5px 5px 5px 10px;
-    }
-    .up-arrow {
-        width: 6rem;
-        height: 6rem;
-    }
+    box-shadow: #2e5895 5px 5px 5px 10px;
 }
